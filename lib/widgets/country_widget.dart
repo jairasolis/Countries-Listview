@@ -36,7 +36,7 @@ class CountryWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: ClipRRect(
-                borderRadius: BorderRadius.circular(5.0),
+                borderRadius: BorderRadius.circular(10.0),
                 child: Opacity(
                   opacity: 0.9,
                   child: Image.asset(
@@ -58,10 +58,10 @@ class CountryWidget extends StatelessWidget {
                     Container(
                       decoration: const BoxDecoration(
                           color: Color.fromARGB(255, 101, 136, 163),
-                          borderRadius: BorderRadius.all(Radius.circular(5))),
+                          borderRadius: BorderRadius.all(Radius.circular(10))),
                       child: Padding(
                         padding: const EdgeInsets.only(
-                            top: 3.0, bottom: 3.0, right: 6, left: 6),
+                            top: 3.0, bottom: 3.0, right: 8, left: 8),
                         child: Text(
                           name,
                           style: const TextStyle(
